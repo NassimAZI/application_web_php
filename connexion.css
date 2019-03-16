@@ -1,0 +1,43 @@
+td {
+font-size:1.4em;
+}
+.tab
+{
+padding-left:10px;
+position:center;
+margin:auto;
+background-color:#ae4b31;
+border-radius:10px;
+color:white;
+}
+.tabconnexion 
+{
+padding-left:100px;
+padding:10px;
+position:center;
+height:300px;
+width:100%;
+box-shadow: 5px 5px 5px black;
+}
+.tabnewcompte{
+padding-left:100px;
+padding:10px;
+position:center;
+height:300px;
+width:100%;
+box-shadow: 5px 5px 5px black;
+}
+@media ( min-width:801px){
+.tab{
+width:80%;
+}
+.corps
+{
+padding-top:100px;
+}
+}
+@media (max-width:800px){
+.tab{
+width:90%;
+}
+}

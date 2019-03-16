@@ -1,0 +1,35 @@
+td {
+font-size:1.4em;
+}
+.tab
+{
+position:center;
+margin:auto;
+background-color:#ae4b31;
+border-radius:10px;
+color:white;
+}
+textarea
+{
+width:80%;
+height:200px;
+}
+.tabcontact
+{
+padding:10px;
+position:center;
+height:700px;
+width:100%;
+box-shadow: 5px 5px 5px black;
+}
+
+@media ( min-width:801px){
+.tab{
+width:80%;
+}
+}
+@media (max-width:800px){
+.tab{
+width:100%;
+}
+}
